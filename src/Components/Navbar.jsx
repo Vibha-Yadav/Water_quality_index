@@ -1,5 +1,7 @@
 import React,{useState} from 'react';
 import logo from'../images/logo.png';
+import { Link } from 'react-router-dom';
+import Feature from './Feature';
 
 function Navbar() {
     const  [nav,setnav]=useState(false);
@@ -12,8 +14,15 @@ function Navbar() {
         }
     }
 
+
+    const handleScroll = (section)=>{
+        let element = document.getElementById(section);
+        element.scrollIntoView({ behavior: 'smooth' });
+    }
+
   window.addEventListener('scroll',changeBackground);
   return (
+    <>
     <nav className={nav ? 'nav active' : 'nav'}>
         <a href='#' className='logo'>
             <img src={logo} alt=''/>
@@ -24,14 +33,19 @@ function Navbar() {
         </label>
         <ul className='menu'>
             <li><a href='#' className='active'>Home</a></li>
-            <li><a href='#'>Features</a></li>
-            <li><a href='#'>About</a></li>
-            <li><a href='#'>Contact Us</a></li>
+            
+            <li onClick={()=>{handleScroll('features')}}><a>Features</a></li> 
+            <li onClick={()=>{handleScroll('about')}}><a>About</a></li>
+             <li><a href='#'>Login</a></li>
+             
+            
             
         </ul>
 
         
     </nav>
+    
+</>
   )
 }
 

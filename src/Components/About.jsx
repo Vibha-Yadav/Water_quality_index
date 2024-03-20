@@ -9,7 +9,7 @@ function About(props) {
         <div className='about-text'>
             <h2>{props.title}</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat perspiciatis maxime reiciendis recusandae quia tempore? Explicabo ab qui dolore laboriosam earum enim! Ipsam, quaerat odio! Sint nobis inventore saepe officiis.</p>
-            <button>{props.button}</button>
+            
         </div>
 
     </div>

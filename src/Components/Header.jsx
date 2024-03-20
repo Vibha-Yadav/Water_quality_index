@@ -10,7 +10,7 @@ function Header() {
             <span>WELCOME TO WQI</span>
           </h1>
 
-          <a href='#' className='cv-btn'>Login</a>
+          {/* <a href='#' className='cv-btn'>Login</a> */}
 
 
         </div>
