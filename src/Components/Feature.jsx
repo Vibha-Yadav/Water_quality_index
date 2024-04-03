@@ -8,9 +8,9 @@ function Feature() {
   return (
     <div id='features'>
         <div className='a-container'>
-        <FeatureBox image={featureimage} title='Feature Analysis' content='Hello this is feature one' />
-            <FeatureBox image={featureimage1} title='WQI Prediction' content='Hello this is feature two'/>
-            <FeatureBox image={featureimage2} title='Real Time Analysis' content='Hello this is feature three'/>
+        <FeatureBox image={featureimage} title='Feature Analysis' content='Shows the trend of each parameter separately' />
+            <FeatureBox image={featureimage1} title='WQI Prediction' content='Predicts the WQI and shows its trend'/>
+            <FeatureBox image={featureimage2} title='Real Time Analysis' content='Real Time Monitoring and prediction'/>
         </div>
     </div>
   )

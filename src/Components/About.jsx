@@ -8,7 +8,7 @@ function About(props) {
         </div>
         <div className='about-text'>
             <h2>{props.title}</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat perspiciatis maxime reiciendis recusandae quia tempore? Explicabo ab qui dolore laboriosam earum enim! Ipsam, quaerat odio! Sint nobis inventore saepe officiis.</p>
+            <p>Our mission at Water Quality Index is to provide real-time predictions of river WQI, ensuring accurate assessments of water health. Leveraging advanced data analytics and environmental monitoring technologies, we deliver timely insights into the quality of our rivers. With a commitment to environmental stewardship, we empower communities, policymakers, and industries with vital information for informed decision-making.</p>
             
         </div>
 

@@ -36,7 +36,8 @@ function Navbar() {
             
             <li onClick={()=>{handleScroll('features')}}><a>Features</a></li> 
             <li onClick={()=>{handleScroll('about')}}><a>About</a></li>
-             <li><a href='#'>Login</a></li>
+            <li onClick={()=>{handleScroll('side')}}><a>Admin</a></li>
+             
              
             
             

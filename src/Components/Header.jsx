@@ -7,10 +7,12 @@ function Header() {
         <Navbar/>
         <div className='name'>
           <h1>
-            <span>WELCOME TO WQI</span>
+            <span>WELCOME TO <br/>WQI</span>
+           
           </h1>
+                
 
-          {/* <a href='#' className='cv-btn'>Login</a> */}
+          
 
 
         </div>
